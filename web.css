@@ -1,12 +1,13 @@
-   body {
+ body {
           
           font-family: 'Roboto Slab';
-          background-color: red;
+          background-color: black;
           -webkit-background-size: cover;
           -moz-background-size: cover;
           -o-background-size: cover;
           background-size: cover;
           color: #0000009a;
+          color: white;
         }
 
 .togl{
@@ -98,14 +99,14 @@
   display: flex;
   width: 50px;
   height: 50px;
-  background-color: aqua;
+  background-color: gold;
   border-radius: 100%;
   justify-content: center;
   align-items: center;
 }
 .contact_font{
   font-size: 1.8rem;
-  color: red;
+  color: black;
 
 }
 .hr{
@@ -115,6 +116,7 @@
   margin-left: 10%;
   margin-right: 10%;
 }
+
 .content{
   width: 200px;
 }
@@ -165,7 +167,7 @@ footer{
 }
 .all_font{
   text-decoration: none;
-  color: black;
+  color: gold;
   font-size: 3.5rem ;
 }
 
@@ -176,8 +178,8 @@ footer{
   color: #000;
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-  color: white;
-  background-color: #0d6efd;
+  color: rgb(0, 0, 0);
+  background-color: #ff6271;
 }
 
 
@@ -188,6 +190,7 @@ footer{
   margin: auto;
   text-align: center;
   font-family: arial;
+  background-color: gold;
   /* height: 260px; */
 }
 
